@@ -28,12 +28,12 @@ public class FileHandeler {
 		// Kan ikke lese en fil før man har åpnet den
 		initiated = false;
 		file = new ArrayList<String>();
-		
+
 	}
 
 	// Lar brukeren grafiskt åpne og velge filen sin
 	public void openFile() {
-		
+
 		JFileChooser chooser = new JFileChooser();
 
 		int status = chooser.showOpenDialog(null);
@@ -44,14 +44,13 @@ public class FileHandeler {
 		} else { // Hvis brukeren velger en fil
 			try {
 				Scanner scan = new Scanner(chooser.getSelectedFile());
-				while(scan.hasNext()) {
+				while (scan.hasNext()) {
 					String line = scan.nextLine();
 					if (!line.startsWith("#"))
 						file.add(line);
 				}
 				initiated = true;
-			}
-			catch(Exception e) {
+			} catch (Exception e) {
 				int i = 0;
 				i++;
 			}
@@ -70,8 +69,8 @@ public class FileHandeler {
 		} else { // Hvis brukeren velger en plassering og filnavn
 			File outFile = chooser.getSelectedFile();
 			try { // Fors¿ker Œ skrive filen
-				BufferedWriter fileOut = new BufferedWriter(
-						new FileWriter(outFile));
+				BufferedWriter fileOut = new BufferedWriter(new FileWriter(
+						outFile));
 				fileOut.write(text);
 				fileOut.flush();
 				fileOut.close();
@@ -86,8 +85,6 @@ public class FileHandeler {
 			initiated = false;
 		}
 	}
-	
-	
 
 	public ArrayList<String> getFile() {
 		return file;
@@ -102,10 +99,10 @@ public class FileHandeler {
 		// Nå er filen tom eller ikke åpnet
 		return ("Line not found!");
 	}
-	
+
 	public void shuffle() {
-		if(initiated) {
-				Collections.shuffle(file);
+		if (initiated) {
+			Collections.shuffle(file);
 		}
 	}
 }

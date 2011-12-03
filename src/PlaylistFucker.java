@@ -1,3 +1,18 @@
+/* *****************************************************************
+ * PlaylistFucker.java
+ * Skrevet av:	Vegard Krudtå Langås og Christoffer Müller Nordeng
+ * 
+ * Oblig 4 Vår 2011 Datateknikk år 1
+ * 					Høgskolen i Narvik
+ * 	
+ * Versjon:		1.0
+ * Dato:		3. December 2011
+ * Copyright:	Modified BSD license aka BSD 3-clause license.
+ * 				See LICENSE.md
+ * 
+ * Info:		Ripple shuffles promos into a shuffled music playist.
+ * ***************************************************************** */
+
 import java.util.Scanner;
 
 public class PlaylistFucker {

@@ -1,4 +1,4 @@
-Copyright (c) 2011, Vegard Lang&aring;s and Christoffer M&#252;ller Nordeng
+Copyright &copy; 2011, Vegard Lang&aring;s and Christoffer M&#252;ller Nordeng
 
 All rights reserved.
 

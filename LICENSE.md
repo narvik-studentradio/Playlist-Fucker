@@ -1,4 +1,4 @@
-Copyright (c) 2011, Vegard Lang&aring;s and Christoffer Müller Nordeng
+Copyright (c) 2011, Vegard Lang&aring;s and Christoffer M&#252;ller Nordeng
 All rights reserved.
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 

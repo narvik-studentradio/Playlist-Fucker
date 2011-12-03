@@ -7,5 +7,5 @@ This application is rough arround the corners and the currently not tested on an
 ## Requirements
 - Java 1.6
 
-# Liceense
+# License
 Modified BSD license aka BSD 3-clause license. See LICENSE.md
